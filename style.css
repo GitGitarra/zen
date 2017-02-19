@@ -1,0 +1,204 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body { 
+	font: 82% arial, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff url(https://s-media-cache-ak0.pinimg.com/originals/2c/71/51/2c7151c61b5d889cfd9acde567ef76c9.jpg) no-repeat bottom right;
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: red;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: red;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	background: url(https://s-media-cache-ak0.pinimg.com/564x/b3/da/20/b3da20b52b93bb17bda20cd60fa9babf.jpg) no-repeat top left; 
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+header h1 { 
+	background: transparent url(logo.gif) no-repeat top left;
+	margin-top: 50px;
+	display: block;
+	width: 550px;
+	height: 200px;
+	float: left;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+header h2 { 
+	background: transparent url(https://s-media-cache-ak0.pinimg.com/originals/2c/71/51/2c7151c61b5d889cfd9acde567ef76c9.jpg) no-repeat top left; 
+	margin-top: 40px; 
+	margin-bottom: 0px; 
+	width: 750px; 
+	height: 450px; 
+	float: left;
+
+	text-indent: 5%;
+        color: red;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+.summary {
+	clear: both; 
+	margin: 0px 100px 45px 10px; 
+	width: 600px; 
+	float: right;
+	}
+.summary p {
+	font: italic 1.1em/2.0 georgia;
+        font-weight: bold; 
+	text-align: left;
+        color: black;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 50px 50px 10px;
+	}
+.supporting {	
+	padding: 0px 10px 50px 10px; 
+	
+	}
+
+footer { 
+        background: black;
+	text-align: center;
+        color: black; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.sidebar {
+	margin-left: 20px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
+.sidebar .wrapper { 
+	font: 10px verdana, sans-serif; 
+	background: transparent url(http://makingartfun.com/images/three-brush-strokes.jpg) top left repeat-y; 
+	padding: 20px; 
+	margin-top: 150px; 
+	width: 130px;
+        height: 1500px; 
+	}
+.sidebar h3.select { 
+	background: transparent; 
+	margin: 10px 0 5px 0; 
+	width: 120px; 
+	height: 20px; 
+
+	text-indent: 5%;
+        color: black;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.archives { 
+	background: transparent; 
+	margin: 25px 0 5px 0; 
+	width:120px; 
+	height: 20px; 
+
+	text-indent: 5%;
+        color: black;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.resources { 
+	background: transparent; 
+	margin: 25px 0 5px 0; 
+	width:120px; 
+	height: 20px; 
+
+	text-indent: 5%;
+        color: black;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: black;
+	}
+.sidebar li a:visited {
+	color: #B3AE94;
+	}
+
+
+.extra1 {
+	background: transparent url(http://makingartfun.com/images/three-brush-strokes.jpg) top left no-repeat; 
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
+	}r
